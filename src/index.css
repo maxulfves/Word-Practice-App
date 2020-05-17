@@ -1,13 +1,44 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-color: #34495e;
+  position: absolute;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, p{
+  margin: 0;
+}
+
+#correction{
+  color : red;
+}
+
+#upper{
+  width:100vw;
+}
+
+#upper {
+  position: absolute;
+  left: 30vw;
+  top: 20vh;
+  width: 40vw;
+}
+
+#quiz{
+  background-color: #ecf0f1;
+
+  padding: 1vw;
+}
+
+#wrongWords{
+  max-height:20vh;
+  color:red;
+  overflow-y: scroll;
+}
+
+#result {
+  background-color: #ecf0f1;
+  margin-top:1vw;
+  padding: 1vw;
 }
